@@ -26,7 +26,7 @@ function ee(projectId, projectName){
     function(){
       console.log(id);
       start(id, name);
-    }, 30000
+    }, //원하는 시간 X 1000
   );
 }
 
@@ -48,7 +48,7 @@ function start(id){
   $.ajax({
     url: "https://playentry.org/api/project/"+id,
     type: "PUT",
-    data: {"category":"기타", "name":"엔화시+", "isopen":true, "group":[]},
+    data: {"category":"기타", "name":"원하는 작품 이름", "isopen":true, "group":[]},
     success: function(data){
       console.log(data);
     }
