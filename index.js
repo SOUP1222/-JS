@@ -26,7 +26,7 @@ function ee(projectId, projectName){
     function(){
       console.log(id);
       start(id, name);
-    }, //원하는 시간 X 1000
+    }, 600000//원하는 시간 X 1000
   );
 }
 
