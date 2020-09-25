@@ -1,0 +1,29 @@
+.start, .stop{
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 25px;
+}
+.start{
+  background-color: powderblue;
+}
+.stop{
+  background-color: red;
+}
+body{
+  width: 300px;
+  height: 400px;
+}
+.on{
+  color: green;
+  font-weight: bold;
+}
+.text{
+  font-weight: bold;
+}
+ul{
+  padding-left: 5px;
+  list-style: none;
+}
